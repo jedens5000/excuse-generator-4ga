@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+#teacher img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#teacher {
+    position: relative;
+}
+
+.text-block {
+    font-family: Permanent Marker;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(148, 143, 143, 0.5);
+    color: rgb(235, 234, 241);
+    padding: 5px 20px 10px;
+  }
+
+  @media (max-width: 768px) {
+
+    #teacher img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+  
+    .text-block {
+        font-family: Permanent Marker;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        padding: 5px 20px 10px;
+      }
+  }
+
+  #myBtn {
+    display: inherit;
+}
+.my-5 {
+    margin-top: 0 !important;
+}
+
+.p-md-5 {
+    padding-top: 0 !important;
+}
