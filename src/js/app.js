@@ -8,7 +8,7 @@ window.onload = () => {
   })
 };
 
-let generateExcuse = () => {
+const generateExcuse = () => {
   let who = ['The dog','My grandma','My turtle','My bird'];
   let action = ['ate','peed on','crushed','broke'];
   let what = ['my homework', 'the keys', 'the car'];
